@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "Titolo": "Panico",
+    "Album":"Sirio",
+    "Artista": "Lazza",
+    "Durata": 188,
+    "Like": 514.000
+  },
+  {
+    "id": 2,
+    "Titolo": "Morto mai",
+    "Album":"Re Mida",
+    "Artista": "Lazza",
+    "Durata": 145,
+    "Like": 945.000
+  },
+  {
+    "id": 3,
+    "Titolo": "Mezze Verità",
+    "Album":"Locura",
+    "Artista": "Lazza",
+    "Durata": 258,
+    "Like": 656.000
+  }
+]
