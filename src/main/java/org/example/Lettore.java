@@ -13,10 +13,8 @@ public class Lettore implements Runnable {
     public void leggi(){
         int i=0;
         try (FileReader fr = new FileReader(nomeFile)) {
-            while(i != -1){
-                i= fr.read();
+            while ((i=fr.read()) != -1)
                 System.out.print((char) i);
-            }
             fr.close();
         } catch (IOException e) {
             System.err.println("Errore lettura file: ");
