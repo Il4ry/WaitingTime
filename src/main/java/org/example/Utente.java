@@ -20,4 +20,10 @@ public class Utente {
             System.out.println("Credenzali sbagliate");
         }
     }
+    public String getName(){
+        return nome;
+    }
+    public String getPassword(){
+        return password;
+    }
 }
