@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        //istanza contatore
         Thread contatore = new Thread(() -> {
             try {
                 for (int i = 3; i > 0; i--) {
@@ -18,10 +19,19 @@ public class Main {
         });
         contatore.start();
 
+        try {
+            contatore.join();
+        } catch (InterruptedException e) {
+            System.err.println("Errore join contatore: " + e.getMessage());
+        }
+
+        //lettura con gson
         System.out.println("Lettura con Gson");
         List<Brano> brani= GestioneFile.leggiConGson("brani.json");
-        if (brani==null){
-            System.err.println("Errore nella lettura del JSON file");
+        if (brani != null) {
+            for (Brano b : brani) {
+                System.out.println(b);
+            }
         }
 
         Scanner scanner = new Scanner(System.in);

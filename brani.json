@@ -1,2 +1,26 @@
-File in output
-
+[
+  {
+    "titolo": "Panico",
+    "album": "Sirio",
+    "artista": "Lazza",
+    "durata": 140
+  },
+  {
+    "titolo": "Re Mida",
+    "album": "Re Mida",
+    "artista": "Lazza",
+    "durata": 140
+  },
+  {
+    "titolo": "Abitudine",
+    "album": "Locura",
+    "artista": "Lazza",
+    "durata": 145
+  },
+  {
+    "titolo": "DDA",
+    "album": "Zzala",
+    "artista": "Lazza",
+    "durata": 135
+  }
+]

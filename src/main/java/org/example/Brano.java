@@ -14,4 +14,8 @@ public class Brano {
         this.artista= artista;
         this.durata= durata;
     }
+
+    public String toString(){
+        return "\nTitolo: " + titolo + "\nAlbum: " + album + "\nArtista: " + artista + "\nDurata: " + durata;
+    }
 }
